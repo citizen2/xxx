@@ -1,0 +1,24 @@
+#main_navbar{
+  border-radius: 0px;
+  background-color: black;
+}
+
+.logo{
+  font-size: 1.7em;
+}
+
+.main_header_li{
+    margin: 0 5px 0 5px;
+}
+
+.main_header_li:last-child{
+  margin-left: 20px;
+}
+
+.main_header_link{
+    font-size: 1.3em;
+}
+
+#main_header_more_cat{
+  color: blue;
+}

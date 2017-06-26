@@ -1,0 +1,82 @@
+/*Контент одного окна для index*/
+.main_content_item{
+  flex: 1 1 200px;
+  max-width: 210px;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main_content_item_link{
+  cursor: pointer;
+  display: block;
+  flex: 1 1 200px;
+}
+
+.main_content_item_link:hover{
+  text-decoration: none;
+}
+
+.main_content_item_img{
+  position: relative;
+  max-height: 150px;
+  max-width: 210px;
+}
+
+.main_content_item_img img{
+  width: 100%;
+}
+
+.main_content_item_img_time{
+  color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 2px;
+}
+
+.main_content_item_name{
+  padding: 5px;
+  color: orange;
+  font-weight: bold;
+}
+
+.main_content_item_inf{
+  margin-left: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main_content_item_inf_views_img{
+  margin-bottom: 2px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.main_content_item_inf_views{
+  flex: 2 1 70%;
+}
+
+.main_content_item_inf_rate{
+  flex: 1 1 30%;
+  margin-left: 5px;
+}
+
+.main_content_item_inf_rate_img{
+  max-width: 18px;
+  max-height: 18px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+}
+
+/*Рекламный блок*/
+.main_adv_block{
+  padding-right: 0;
+  margin-top: 15px;
+}
+
+.main_adv_block_item{
+  background-color: yellow;
+}

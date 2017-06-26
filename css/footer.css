@@ -1,0 +1,22 @@
+footer{
+  flex: 0 0 auto;
+  width: 100%;
+  background: lightBlue;
+}
+
+.footer_list_name{
+  text-transform: uppercase;
+  margin-left: 10px
+}
+
+.footer_list_ul{
+    list-style-type: none;
+}
+
+.footer_list_link{
+  color: black;
+}
+
+#footer_copyright{
+  margin-left: 10px;
+}

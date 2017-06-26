@@ -1,0 +1,80 @@
+@import "header.css";
+@import "footer.css";
+@import "main_page.css";
+@import "category.css";
+
+html{
+  font-family: sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  width: 100%;
+}
+
+header{
+  background: black;
+}
+
+.clear:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+#main_content,#main_header,#main_footer,.main_reg_bar_container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#wrapper{
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  background: white;
+}
+
+.main_reg_bar{
+  background: black;
+}
+
+.main_reg_bar_container_ul{
+  margin-right: 35px;
+}
+
+.main_reg_bar_container_ul li{
+  border: 2px solid white;
+  margin: 0 10px 5px 10px;
+  border-radius: 3px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  display: block;
+  float: right;
+  list-style: none;
+}
+
+#regestration_button{
+  margin-right: 0;
+}
+
+/*Основной контент*/
+#main_content{
+  flex: 1 0 auto;
+	display: flex;
+  width: 100%;
+	flex-flow: row wrap;
+}
+
+.main_content_windows{
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-bottom: 10px;
+}
